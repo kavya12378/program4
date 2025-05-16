@@ -1,5 +1,5 @@
-import java.util.ArrayList;
 import java.util.List;
+import java.util.ArrayList;
 
 class Course {
     String courseName;
@@ -18,7 +18,7 @@ class Course {
         return marks;
     }
 }
-0
+
 class Student {
     String name;
     String program;
@@ -54,6 +54,7 @@ class Student {
         }
     }
 }
+
 public class Main {
     public static void main(String[] args) {
         Student student = new Student("Alice", "B.Tech CSE", 5);
